@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { socials } from "./socials";
+import logo from "@/assets/temzy-logo.png";
 
 const navItems = [
   { label: "Home", href: "/#home" },
@@ -35,11 +36,14 @@ export default function Navbar() {
           }`}
           aria-label="Primary"
         >
-          <a href="#home" className="flex items-center gap-2 group">
-            <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-display font-bold shadow-[0_8px_24px_-8px_hsl(var(--primary)/0.6)]">
-              T
-              <span className="absolute -inset-1 rounded-xl bg-gradient-to-br from-primary to-accent opacity-0 blur-lg group-hover:opacity-50 transition-opacity" />
-            </span>
+          <a href="#home" className="flex items-center gap-2 group" aria-label="Temzy Marketer home">
+            <img
+              src={logo}
+              alt="Temzy Marketer logo"
+              className="h-9 w-9 rounded-xl object-cover shadow-[0_8px_24px_-8px_hsl(var(--primary)/0.6)] group-hover:scale-105 transition-transform"
+              loading="eager"
+              decoding="async"
+            />
             <span className="font-display font-bold text-lg tracking-tight">
               Temzy<span className="text-accent">.</span>
             </span>
