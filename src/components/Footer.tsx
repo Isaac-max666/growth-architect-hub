@@ -1,11 +1,11 @@
 import { socials } from "./socials";
 
 const footerLinks = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "Portfolio", href: "/#portfolio" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Footer() {

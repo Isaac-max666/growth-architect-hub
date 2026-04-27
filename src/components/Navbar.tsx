@@ -3,12 +3,12 @@ import { Menu, X } from "lucide-react";
 import { socials } from "./socials";
 
 const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/#home" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "Portfolio", href: "/#portfolio" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
