@@ -1,4 +1,5 @@
 import { socials } from "./socials";
+import logo from "@/assets/temzy-logo.png";
 
 const footerLinks = [
   { label: "About", href: "/#about" },
@@ -14,10 +15,14 @@ export default function Footer() {
       <div className="container py-14">
         <div className="grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-5">
-            <a href="#home" className="flex items-center gap-2">
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground font-display font-bold text-lg">
-                T
-              </span>
+            <a href="#home" className="flex items-center gap-2" aria-label="Temzy Marketer home">
+              <img
+                src={logo}
+                alt="Temzy Marketer logo"
+                className="h-10 w-10 rounded-xl object-cover"
+                loading="lazy"
+                decoding="async"
+              />
               <span className="font-display font-bold text-xl">Temzy<span className="text-accent">.</span></span>
             </a>
             <p className="mt-4 text-muted-foreground max-w-md">
