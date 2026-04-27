@@ -74,7 +74,7 @@ export default function Navbar() {
               ))}
             </div>
             <a
-              href="https://isaac-scales-skool.lovable.app/"
+              href="https://calendly.com/temzymarketer/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 items-center rounded-full bg-gradient-to-r from-accent to-accent-glow px-5 text-sm font-semibold text-accent-foreground shadow-[0_10px_30px_-10px_hsl(var(--accent)/0.6)] hover:shadow-[0_16px_40px_-10px_hsl(var(--accent)/0.8)] hover:-translate-y-0.5 transition-all"
@@ -119,7 +119,7 @@ export default function Navbar() {
                 ))}
               </div>
               <a
-                href="https://isaac-scales-skool.lovable.app/"
+                href="https://calendly.com/temzymarketer/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex h-10 items-center rounded-full bg-gradient-to-r from-accent to-accent-glow px-5 text-sm font-semibold text-accent-foreground"

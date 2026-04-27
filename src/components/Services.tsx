@@ -86,7 +86,7 @@ export default function Services() {
           {/* CTA card */}
           <Reveal delay={400}>
             <a
-              href="https://isaac-scales-skool.lovable.app/"
+              href="https://calendly.com/temzymarketer/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="relative h-full rounded-3xl p-7 flex flex-col justify-between bg-gradient-to-br from-primary via-primary to-accent text-primary-foreground overflow-hidden group hover:-translate-y-1.5 transition-all duration-300"
