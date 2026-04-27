@@ -33,7 +33,7 @@ const services = [
   {
     Icon: Banknote,
     title: "USA Bank Account Setup",
-    text: "End-to-end setup for African entrepreneurs to receive global payments with ease.",
+    text: "End-to-end setup for international entrepreneurs to receive global payments with ease.",
     tags: ["Mercury", "Wise", "Stripe"],
     accent: "primary",
   },

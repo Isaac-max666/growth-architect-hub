@@ -21,7 +21,7 @@ export default function Footer() {
               <span className="font-display font-bold text-xl">Temzy<span className="text-accent">.</span></span>
             </a>
             <p className="mt-4 text-muted-foreground max-w-md">
-              Ibidapo Isaac — Digital Growth Architect helping African businesses & creators
+              Ibidapo Isaac — Digital Growth Architect helping businesses & creators worldwide
               build websites, marketing engines and Skool communities that win.
             </p>
             <div className="mt-6 flex items-center gap-2">
@@ -71,7 +71,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Ibidapo Isaac · Temzy Marketer. All rights reserved.</p>
-          <p>Built with ❤️ for African growth.</p>
+          <p>Built with ❤️ for ambitious creators & brands.</p>
         </div>
       </div>
     </footer>

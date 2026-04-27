@@ -68,7 +68,7 @@ const projects: Project[] = [
     title: "Startup Wix Studio Redesign",
     category: "Web Design",
     image: wix,
-    desc: "Wix Studio redesign for an African SaaS startup focused on lead generation.",
+    desc: "Wix Studio redesign for a SaaS startup focused on lead generation.",
     metric: "+62% qualified leads",
     quote: "Site looks 10x more professional.",
   },
