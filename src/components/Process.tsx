@@ -1,0 +1,48 @@
+import { Search, Compass, Rocket, TrendingUp } from "lucide-react";
+import { Reveal } from "./Reveal";
+
+const steps = [
+  { Icon: Search, title: "Discovery", text: "Deep dive into your brand, audience and current bottlenecks." },
+  { Icon: Compass, title: "Strategy", text: "A clear, prioritised growth roadmap tailored to your goals." },
+  { Icon: Rocket, title: "Execution", text: "We ship — websites, content, campaigns, community systems." },
+  { Icon: TrendingUp, title: "Scale & Optimize", text: "Measure, double down on what works, kill what doesn't." },
+];
+
+export default function Process() {
+  return (
+    <section id="process" className="relative py-24 lg:py-32">
+      <div className="container">
+        <Reveal className="max-w-3xl">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-xs font-semibold tracking-widest uppercase text-accent">
+            Process
+          </span>
+          <h2 className="mt-4 font-display font-bold text-4xl sm:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
+            A simple <span className="text-gradient-mix">4-step</span> path to growth.
+          </h2>
+        </Reveal>
+
+        <div className="mt-14 relative grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+          {/* connecting line */}
+          <div className="hidden lg:block absolute top-12 left-[12%] right-[12%] h-px bg-gradient-to-r from-transparent via-accent to-transparent" aria-hidden="true" />
+
+          {steps.map(({ Icon, title, text }, i) => (
+            <Reveal key={title} delay={i * 100}>
+              <div className="relative glass rounded-3xl p-7 h-full hover:-translate-y-1 hover:border-accent/50 transition-all">
+                <div className="flex items-center justify-between mb-5">
+                  <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-accent text-primary-foreground">
+                    <Icon className="h-6 w-6" />
+                  </div>
+                  <span className="font-display font-bold text-5xl text-muted-foreground/20">
+                    0{i + 1}
+                  </span>
+                </div>
+                <h3 className="font-display font-semibold text-xl">{title}</h3>
+                <p className="mt-2 text-sm text-muted-foreground">{text}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
