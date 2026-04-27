@@ -3,13 +3,13 @@ import { Reveal } from "./Reveal";
 
 const values = [
   { Icon: Zap, title: "Results-driven", text: "Every decision tied to growth metrics that matter." },
-  { Icon: Heart, title: "Africa-first", text: "Built for African startups, brands & creators." },
+  { Icon: Heart, title: "Creator-first", text: "Built for ambitious startups, brands & creators." },
   { Icon: Award, title: "Master one, scale", text: "Do one thing exceptionally well — then 10x it." },
 ];
 
 const highlights = [
   "5+ years building online communities",
-  "Top-rated on Fiverr (Pro-vetted)",
+  "Trusted by global creators & brands",
   "Worked with creators from 6 countries",
   "Scaled Skool communities to 4-figure memberships",
 ];
@@ -30,7 +30,7 @@ export default function About() {
               Hi, I'm <span className="text-foreground font-semibold">Ibidapo Isaac</span> — known as
               <span className="text-foreground font-semibold"> Temzy Marketer</span> and
               <span className="text-foreground font-semibold"> Isaac Scaling</span>. A digital solutions expert
-              passionate about helping African businesses, startups, e-commerce brands and online creators build
+              passionate about helping businesses, startups, e-commerce brands and online creators build
               strong online presence and scalable Skool communities.
             </p>
             <p className="mt-4 text-lg text-muted-foreground">

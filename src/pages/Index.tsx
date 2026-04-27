@@ -17,7 +17,7 @@ const Index = () => {
     alternateName: ["Temzy Marketer", "Isaac Scaling"],
     jobTitle: "Digital Growth Architect",
     description:
-      "Digital solutions expert helping African businesses, creators and Skool communities scale online with conversion-focused websites, marketing and community systems.",
+      "Digital solutions expert helping businesses, creators and Skool communities scale online with conversion-focused websites, marketing and community systems.",
     url: "https://temzymarketer.com",
     sameAs: [
       "https://www.instagram.com/temzymarketer",
