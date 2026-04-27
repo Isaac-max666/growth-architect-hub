@@ -1,11 +1,11 @@
 import { socials } from "./socials";
 
 const footerLinks = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "Portfolio", href: "/#portfolio" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Footer() {
@@ -59,7 +59,7 @@ export default function Footer() {
               Open for select projects. Reply within 24 hours.
             </p>
             <a
-              href="https://isaac-scales-skool.lovable.app/"
+              href="https://calendly.com/temzymarketer/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-11 items-center rounded-full bg-gradient-to-r from-accent to-accent-glow px-6 text-sm font-semibold text-accent-foreground hover:-translate-y-0.5 transition-all"

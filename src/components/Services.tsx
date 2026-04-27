@@ -1,4 +1,4 @@
-import { Code2, Megaphone, Users, Palette, Banknote, ArrowUpRight } from "lucide-react";
+import { Code2, Megaphone, Users, Palette, ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const services = [
@@ -29,13 +29,6 @@ const services = [
     text: "Logos, palettes & brand systems that look premium and convert across every touchpoint.",
     tags: ["Logo", "Identity", "Guidelines"],
     accent: "accent",
-  },
-  {
-    Icon: Banknote,
-    title: "USA Bank Account Setup",
-    text: "End-to-end setup for international entrepreneurs to receive global payments with ease.",
-    tags: ["Mercury", "Wise", "Stripe"],
-    accent: "primary",
   },
 ];
 
@@ -86,7 +79,7 @@ export default function Services() {
           {/* CTA card */}
           <Reveal delay={400}>
             <a
-              href="https://isaac-scales-skool.lovable.app/"
+              href="https://calendly.com/temzymarketer/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="relative h-full rounded-3xl p-7 flex flex-col justify-between bg-gradient-to-br from-primary via-primary to-accent text-primary-foreground overflow-hidden group hover:-translate-y-1.5 transition-all duration-300"

@@ -48,7 +48,7 @@ export default function Hero() {
             <Reveal delay={320}>
               <div className="mt-10 flex flex-col sm:flex-row items-center lg:items-start gap-4 sm:justify-start justify-center">
                 <a
-                  href="https://isaac-scales-skool.lovable.app/"
+                  href="https://calendly.com/temzymarketer/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex h-14 items-center gap-2 rounded-full bg-gradient-to-r from-accent to-accent-glow px-8 text-base font-semibold text-accent-foreground shadow-[0_20px_50px_-15px_hsl(var(--accent)/0.7)] hover:shadow-[0_30px_60px_-15px_hsl(var(--accent)/0.9)] hover:-translate-y-1 transition-all"

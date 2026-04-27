@@ -26,7 +26,7 @@ export default function Contact() {
 
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="https://isaac-scales-skool.lovable.app/"
+                  href="https://calendly.com/temzymarketer/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex h-14 items-center gap-2 rounded-full bg-gradient-to-r from-accent to-accent-glow px-8 text-base font-semibold text-accent-foreground shadow-[0_20px_50px_-15px_hsl(var(--accent)/0.7)] hover:-translate-y-1 transition-all"
@@ -36,7 +36,7 @@ export default function Contact() {
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
                 <a
-                  href="mailto:hello@temzymarketer.com"
+                  href="mailto:temzymarketer@gmail.com"
                   className="inline-flex h-14 items-center gap-2 rounded-full glass px-8 text-base font-semibold text-foreground hover:border-primary/60 hover:-translate-y-1 transition-all"
                 >
                   <Mail className="h-5 w-5" />
