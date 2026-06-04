@@ -58,9 +58,20 @@ export default function Services() {
         </Reveal>
 
         <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {services.map(({ Icon, title, text, tags, accent }, i) => (
+          {services.map(({ Icon, image, title, text, tags, accent }, i) => (
             <Reveal key={title} delay={i * 80}>
-              <article className="group relative h-full glass rounded-3xl p-7 hover:-translate-y-1.5 hover:border-accent/50 transition-all duration-300">
+              <article className="group relative h-full glass rounded-3xl p-7 hover:-translate-y-1.5 hover:border-accent/50 transition-all duration-300 overflow-hidden">
+                <div className="relative -mx-7 -mt-7 mb-6 h-44 overflow-hidden">
+                  <img
+                    src={image}
+                    alt={title}
+                    loading="lazy"
+                    width={800}
+                    height={600}
+                    className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-card via-card/30 to-transparent" />
+                </div>
                 <div
                   className={`inline-flex h-14 w-14 items-center justify-center rounded-2xl mb-5 ${
                     accent === "accent"
