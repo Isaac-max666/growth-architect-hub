@@ -29,7 +29,7 @@ export default function Hero() {
 
             <Reveal delay={120}>
               <h1 className="mt-6 font-display font-bold text-5xl sm:text-6xl lg:text-7xl xl:text-[5.25rem] leading-[1.02] tracking-tight">
-                Temzy Marketer
+                Isaac Solutions
                 <span className="block text-gradient-mix">Digital Growth Architect</span>
               </h1>
             </Reveal>
@@ -88,7 +88,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20 pointer-events-none mix-blend-screen" aria-hidden="true" />
                 <img
                   src={portrait}
-                  alt="Ibidapo Isaac, Temzy Marketer — Digital Growth Architect"
+                  alt="Ibidapo Isaac, Isaac Solutions — Digital Growth Architect"
                   width={1024}
                   height={1280}
                   className="w-full h-auto object-cover"

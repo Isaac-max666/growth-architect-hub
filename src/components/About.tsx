@@ -27,9 +27,8 @@ export default function About() {
               The man behind the <span className="text-gradient-primary">growth</span>.
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              Hi, I'm <span className="text-foreground font-semibold">Ibidapo Isaac</span> — known as
-              <span className="text-foreground font-semibold"> Temzy Marketer</span> and
-              <span className="text-foreground font-semibold"> Isaac Scaling</span>. A digital solutions expert
+              Hi, I'm <span className="text-foreground font-semibold">Ibidapo Isaac</span> — founder of
+              <span className="text-foreground font-semibold"> Isaac Solutions</span>. A digital solutions expert
               passionate about helping businesses, startups, e-commerce brands and online creators build
               strong online presence and scalable Skool communities.
             </p>

@@ -36,16 +36,16 @@ export default function Navbar() {
           }`}
           aria-label="Primary"
         >
-          <a href="#home" className="flex items-center gap-2 group" aria-label="Temzy Marketer home">
+          <a href="#home" className="flex items-center gap-2 group" aria-label="Isaac Solutions home">
             <img
               src={logo}
-              alt="Temzy Marketer logo"
+              alt="Isaac Solutions logo"
               className="h-9 w-9 rounded-xl object-cover shadow-[0_8px_24px_-8px_hsl(var(--primary)/0.6)] group-hover:scale-105 transition-transform"
               loading="eager"
               decoding="async"
             />
             <span className="font-display font-bold text-lg tracking-tight">
-              Temzy<span className="text-accent">.</span>
+              Isaac Solutions<span className="text-accent">.</span>
             </span>
           </a>
 
