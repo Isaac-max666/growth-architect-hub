@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Emily Carter",
     role: "Founder, Beauty Brand · USA",
-    text: "Temzy redesigned our Shopify store and our conversion rate nearly tripled in two months. The man knows what he's doing.",
+    text: "Isaac redesigned our Shopify store and our conversion rate nearly tripled in two months. The man knows what he's doing.",
     source: "Fiverr",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: "Liam Bennett",
     role: "E-commerce Founder · Australia",
-    text: "Best decision was bringing Temzy on. Site, ads, branding — all aligned. Now we look like a real global brand.",
+    text: "Best decision was bringing Isaac on. Site, ads, branding — all aligned. Now we look like a real global brand.",
     source: "Fiverr",
   },
   {
