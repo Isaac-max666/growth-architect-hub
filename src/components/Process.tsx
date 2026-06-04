@@ -29,9 +29,20 @@ export default function Process() {
           {/* connecting line */}
           <div className="hidden lg:block absolute top-12 left-[12%] right-[12%] h-px bg-gradient-to-r from-transparent via-accent to-transparent" aria-hidden="true" />
 
-          {steps.map(({ Icon, title, text }, i) => (
+          {steps.map(({ Icon, image, title, text }, i) => (
             <Reveal key={title} delay={i * 100}>
-              <div className="relative glass rounded-3xl p-7 h-full hover:-translate-y-1 hover:border-accent/50 transition-all">
+              <div className="relative glass rounded-3xl p-7 h-full hover:-translate-y-1 hover:border-accent/50 transition-all overflow-hidden">
+                <div className="relative -mx-7 -mt-7 mb-5 h-36 overflow-hidden">
+                  <img
+                    src={image}
+                    alt={title}
+                    loading="lazy"
+                    width={800}
+                    height={600}
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-card via-card/40 to-transparent" />
+                </div>
                 <div className="flex items-center justify-between mb-5">
                   <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-accent text-primary-foreground">
                     <Icon className="h-6 w-6" />
