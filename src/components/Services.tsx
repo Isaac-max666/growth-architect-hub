@@ -1,9 +1,14 @@
 import { Code2, Megaphone, Users, Palette, ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
+import serviceWeb from "@/assets/service-web.jpg";
+import serviceMarketing from "@/assets/service-marketing.jpg";
+import serviceCommunity from "@/assets/service-community.jpg";
+import serviceBranding from "@/assets/service-branding.jpg";
 
 const services = [
   {
     Icon: Code2,
+    image: serviceWeb,
     title: "Web Development & Redesign",
     text: "Conversion-focused websites, Shopify & Wix Studio stores built to load fast and sell.",
     tags: ["Shopify", "Wix Studio", "Landing Pages"],
@@ -11,6 +16,7 @@ const services = [
   },
   {
     Icon: Megaphone,
+    image: serviceMarketing,
     title: "Digital Marketing",
     text: "Social media strategy, SEO, content systems, brand promotion & full YouTube channel setup.",
     tags: ["SEO", "Social", "YouTube"],
@@ -18,6 +24,7 @@ const services = [
   },
   {
     Icon: Users,
+    image: serviceCommunity,
     title: "Skool Community Architect",
     text: "Engagement systems, retention loops & growth playbooks that scale to 4-figure memberships.",
     tags: ["Skool", "Retention", "Onboarding"],
@@ -25,6 +32,7 @@ const services = [
   },
   {
     Icon: Palette,
+    image: serviceBranding,
     title: "Branding & Visual Identity",
     text: "Logos, palettes & brand systems that look premium and convert across every touchpoint.",
     tags: ["Logo", "Identity", "Guidelines"],
@@ -50,9 +58,20 @@ export default function Services() {
         </Reveal>
 
         <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {services.map(({ Icon, title, text, tags, accent }, i) => (
+          {services.map(({ Icon, image, title, text, tags, accent }, i) => (
             <Reveal key={title} delay={i * 80}>
-              <article className="group relative h-full glass rounded-3xl p-7 hover:-translate-y-1.5 hover:border-accent/50 transition-all duration-300">
+              <article className="group relative h-full glass rounded-3xl p-7 hover:-translate-y-1.5 hover:border-accent/50 transition-all duration-300 overflow-hidden">
+                <div className="relative -mx-7 -mt-7 mb-6 h-44 overflow-hidden">
+                  <img
+                    src={image}
+                    alt={title}
+                    loading="lazy"
+                    width={800}
+                    height={600}
+                    className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-card via-card/30 to-transparent" />
+                </div>
                 <div
                   className={`inline-flex h-14 w-14 items-center justify-center rounded-2xl mb-5 ${
                     accent === "accent"
