@@ -1,11 +1,15 @@
 import { Search, Compass, Rocket, TrendingUp } from "lucide-react";
 import { Reveal } from "./Reveal";
+import processDiscovery from "@/assets/process-discovery.jpg";
+import processStrategy from "@/assets/process-strategy.jpg";
+import processExecution from "@/assets/process-execution.jpg";
+import processScale from "@/assets/process-scale.jpg";
 
 const steps = [
-  { Icon: Search, title: "Discovery", text: "Deep dive into your brand, audience and current bottlenecks." },
-  { Icon: Compass, title: "Strategy", text: "A clear, prioritised growth roadmap tailored to your goals." },
-  { Icon: Rocket, title: "Execution", text: "We ship — websites, content, campaigns, community systems." },
-  { Icon: TrendingUp, title: "Scale & Optimize", text: "Measure, double down on what works, kill what doesn't." },
+  { Icon: Search, image: processDiscovery, title: "Discovery", text: "Deep dive into your brand, audience and current bottlenecks." },
+  { Icon: Compass, image: processStrategy, title: "Strategy", text: "A clear, prioritised growth roadmap tailored to your goals." },
+  { Icon: Rocket, image: processExecution, title: "Execution", text: "We ship — websites, content, campaigns, community systems." },
+  { Icon: TrendingUp, image: processScale, title: "Scale & Optimize", text: "Measure, double down on what works, kill what doesn't." },
 ];
 
 export default function Process() {
