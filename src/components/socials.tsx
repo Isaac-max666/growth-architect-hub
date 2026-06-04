@@ -1,4 +1,4 @@
-import { Instagram, type LucideIcon } from "lucide-react";
+import { Instagram, Linkedin, type LucideIcon } from "lucide-react";
 
 // Custom inline SVGs for platforms not in lucide
 const Fiverr = (props: React.SVGProps<SVGSVGElement>) => (
@@ -16,11 +16,14 @@ const Skool = (props: React.SVGProps<SVGSVGElement>) => (
     <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8l-5 4V5Zm6.5 4.75a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0ZM7 14.25c.6-1.5 2.65-2.5 5-2.5s4.4 1 5 2.5H7Z"/>
   </svg>
 );
-const HelpBnk = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <circle cx="12" cy="12" r="10" />
-    <path d="M9 9.5a3 3 0 1 1 4.24 2.74c-.74.34-1.24 1.04-1.24 1.86V15" />
-    <circle cx="12" cy="18" r="0.6" fill="currentColor" />
+const TikTok = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.3 20.1a6.34 6.34 0 0 0 10.86-4.43V8.55a8.16 8.16 0 0 0 4.77 1.52V6.66a4.85 4.85 0 0 1-1.34-.02Z"/>
+  </svg>
+);
+const XLogo = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M18.244 2H21.5l-7.5 8.57L22.5 22h-6.84l-5.36-6.96L4.16 22H.9l8.02-9.17L.5 2h6.96l4.84 6.4L18.244 2Zm-1.2 18h1.86L7.04 4H5.07l11.974 16Z"/>
   </svg>
 );
 
@@ -31,9 +34,11 @@ export type SocialLink = {
 };
 
 export const socials: SocialLink[] = [
-  { name: "Instagram", href: "https://www.instagram.com/temzymarketer", Icon: Instagram },
-  { name: "Fiverr",    href: "https://www.fiverr.com/temzymarketer",    Icon: Fiverr },
-  { name: "HelpBnk",   href: "https://helpbnk.com/@temzymarketer",      Icon: HelpBnk },
+  { name: "Instagram", href: "https://www.instagram.com/isaacsolutions", Icon: Instagram },
+  { name: "X",         href: "https://x.com/Isaacsolutions",             Icon: XLogo },
+  { name: "LinkedIn",  href: "https://www.linkedin.com/in/isaacsolutions", Icon: Linkedin },
+  { name: "TikTok",    href: "https://www.tiktok.com/@isaacsolutiions",   Icon: TikTok },
+  { name: "Fiverr",    href: "https://www.fiverr.com/temzymarketer",      Icon: Fiverr },
   { name: "Skool",     href: "https://www.skool.com/@temzy-marketer-7857", Icon: Skool },
-  { name: "Pinterest", href: "https://www.pinterest.com/temzymarketer/", Icon: Pinterest },
+  { name: "Pinterest", href: "https://www.pinterest.com/isaacsolutions",  Icon: Pinterest },
 ];

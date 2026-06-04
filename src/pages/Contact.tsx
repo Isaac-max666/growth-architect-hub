@@ -58,7 +58,7 @@ export default function ContactPage() {
           </Reveal>
           <Reveal delay={140}>
             <h1 className="mt-5 font-display font-bold text-5xl sm:text-6xl lg:text-7xl leading-[1.02] tracking-tight max-w-4xl">
-              Contact <span className="text-gradient-mix">Temzy</span>.
+              Contact <span className="text-gradient-mix">Isaac</span>.
             </h1>
           </Reveal>
           <Reveal delay={220}>
