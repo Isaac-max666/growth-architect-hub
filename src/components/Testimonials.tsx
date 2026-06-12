@@ -38,6 +38,18 @@ const testimonials = [
     text: "From zero web presence to leads pouring in. He's our go-to for anything digital growth.",
     source: "Skool",
   },
+  {
+    name: "Priya Sharma",
+    role: "SaaS Product Lead · India",
+    text: "Isaac reimagined our entire UI/UX — cleaner flows, better onboarding. Activation jumped 38% in the first month.",
+    source: "Fiverr",
+  },
+  {
+    name: "Noah Bergström",
+    role: "Fintech Founder · Sweden",
+    text: "His UX audit caught friction points we'd been blind to for a year. The redesigned dashboard is genuinely a joy to use.",
+    source: "LinkedIn",
+  },
 ];
 
 export default function Testimonials() {
