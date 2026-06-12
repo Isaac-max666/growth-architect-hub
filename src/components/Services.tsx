@@ -1,9 +1,10 @@
-import { Code2, Megaphone, Users, Palette, ArrowUpRight } from "lucide-react";
+import { Code2, Megaphone, Users, Palette, Figma, ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import serviceWeb from "@/assets/service-web.jpg";
 import serviceMarketing from "@/assets/service-marketing.jpg";
 import serviceCommunity from "@/assets/service-community.jpg";
 import serviceBranding from "@/assets/service-branding.jpg";
+import serviceUiux from "@/assets/service-uiux.jpg";
 
 const services = [
   {
@@ -37,6 +38,14 @@ const services = [
     text: "Logos, palettes & brand systems that look premium and convert across every touchpoint.",
     tags: ["Logo", "Identity", "Guidelines"],
     accent: "accent",
+  },
+  {
+    Icon: Figma,
+    image: serviceUiux,
+    title: "UI/UX Design",
+    text: "User-first interfaces, wireframes & prototypes designed to feel effortless and convert beautifully.",
+    tags: ["Figma", "Wireframes", "Prototyping"],
+    accent: "primary",
   },
 ];
 
