@@ -1,10 +1,11 @@
-import { Code2, Megaphone, Users, Palette, Figma, ArrowUpRight } from "lucide-react";
+import { Code2, Megaphone, Users, Palette, Figma, BookOpen, ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import serviceWeb from "@/assets/service-web.jpg";
 import serviceMarketing from "@/assets/service-marketing.jpg";
 import serviceCommunity from "@/assets/service-community.jpg";
 import serviceBranding from "@/assets/service-branding.jpg";
 import serviceUiux from "@/assets/service-uiux.jpg";
+import serviceBook from "@/assets/service-book.jpg";
 
 const services = [
   {
@@ -46,6 +47,14 @@ const services = [
     text: "User-first interfaces, wireframes & prototypes designed to feel effortless and convert beautifully.",
     tags: ["Figma", "Wireframes", "Prototyping"],
     accent: "primary",
+  },
+  {
+    Icon: BookOpen,
+    image: serviceBook,
+    title: "Book Publishing & Marketing",
+    text: "End-to-end self-publishing — cover, formatting, Amazon KDP launch & marketing campaigns that drive bestseller rank.",
+    tags: ["Amazon KDP", "Launch", "Bestseller"],
+    accent: "accent",
   },
 ];
 

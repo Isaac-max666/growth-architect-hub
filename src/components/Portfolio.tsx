@@ -6,9 +6,12 @@ import skool from "@/assets/project-skool.jpg";
 import branding from "@/assets/project-branding.jpg";
 import marketing from "@/assets/project-marketing.jpg";
 import wix from "@/assets/project-wix.jpg";
+import bookBusiness from "@/assets/project-book-business.jpg";
+import bookMemoir from "@/assets/project-book-memoir.jpg";
+import bookChildren from "@/assets/project-book-children.jpg";
 import { Reveal } from "./Reveal";
 
-const filters = ["All", "Web Design", "Digital Marketing", "Skool Growth", "Branding"] as const;
+const filters = ["All", "Web Design", "Digital Marketing", "Skool Growth", "Branding", "Book Publishing"] as const;
 type Filter = typeof filters[number];
 
 type Project = {
@@ -71,6 +74,31 @@ const projects: Project[] = [
     desc: "Wix Studio redesign for a German SaaS startup focused on lead generation.",
     metric: "+62% qualified leads",
     quote: "Site looks 10x more professional.",
+  },
+  {
+    title: "Bestselling Business Book Launch",
+    category: "Book Publishing",
+    image: bookBusiness,
+    desc: "Cover design, KDP formatting, launch funnel & Amazon Ads for a US business author's debut release.",
+    metric: "#1 New Release · 4k+ copies",
+    quote: "Hit bestseller in week one.",
+    tall: true,
+  },
+  {
+    title: "Memoir — Nigerian Author Debut",
+    category: "Book Publishing",
+    image: bookMemoir,
+    desc: "Full publishing package: editing coordination, hardcover design and launch PR for a debut memoir.",
+    metric: "2,100+ pre-orders",
+    quote: "He made my dream a real book.",
+  },
+  {
+    title: "Children's Picture Book Launch",
+    category: "Book Publishing",
+    image: bookChildren,
+    desc: "Illustration coordination, KDP setup, and a 30-day marketing campaign for a UK children's author.",
+    metric: "Amazon bestseller in 10 days",
+    quote: "Stress-free, world-class launch.",
   },
 ];
 
