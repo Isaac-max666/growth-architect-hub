@@ -50,6 +50,24 @@ const testimonials = [
     text: "His UX audit caught friction points we'd been blind to for a year. The redesigned dashboard is genuinely a joy to use.",
     source: "LinkedIn",
   },
+  {
+    name: "Rachel Adeyemi",
+    role: "Author · Nigeria/USA",
+    text: "Isaac handled my entire book launch — cover, formatting, Amazon KDP, ads. Hit #1 New Release in my category in week one.",
+    source: "Fiverr",
+  },
+  {
+    name: "Michael O'Connor",
+    role: "Business Author · Ireland",
+    text: "I had a manuscript sitting for two years. Isaac turned it into a polished, marketed book that's now sold 4,000+ copies.",
+    source: "LinkedIn",
+  },
+  {
+    name: "Aisha Bello",
+    role: "Children's Book Author · UK",
+    text: "From illustrations coordination to the launch funnel, he ran the whole thing. My picture book hit Amazon bestseller in 10 days.",
+    source: "Instagram",
+  },
 ];
 
 export default function Testimonials() {
